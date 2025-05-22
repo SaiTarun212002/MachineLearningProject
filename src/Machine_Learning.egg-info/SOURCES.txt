@@ -1,0 +1,16 @@
+setup.py
+src/__init__.py
+src/Machine_Learning.egg-info/PKG-INFO
+src/Machine_Learning.egg-info/SOURCES.txt
+src/Machine_Learning.egg-info/dependency_links.txt
+src/Machine_Learning.egg-info/requires.txt
+src/Machine_Learning.egg-info/top_level.txt
+src/components/__init__.py
+src/components/data_ingestion.py
+src/components/data_transform.py
+src/components/model_trainer.py
+src/pipeline/__init__.py
+src/pipeline/exception.py
+src/pipeline/logger.py
+src/pipeline/predict_pipeline.py
+src/pipeline/train_pipeline.py
