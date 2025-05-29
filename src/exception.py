@@ -17,9 +17,3 @@ class CustomException(Exception):
     def __str__(self):
         return self.error
     
-if __name__=="__main__":
-    try:
-        a=10/0
-    except Exception as e:
-        logging.info("Info in Exception")
-        raise CustomException(e,sys)
